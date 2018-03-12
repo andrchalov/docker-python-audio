@@ -18,6 +18,7 @@ RUN pip install requests
 RUN pip install mutagen
 RUN pip install wave
 RUN pip install pillow
+RUN pip install raven
 
 RUN apk del gcc musl-dev
 
